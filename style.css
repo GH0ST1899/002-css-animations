@@ -1,0 +1,64 @@
+body{
+    background-image: url(bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+}
+
+.bird{
+    width: 200px;
+    position: absolute;
+    left: 20%;
+    top: 10%;
+    animation: BirdAnim 6s infinite;
+}
+
+.bird img{
+    width: 100%;
+}
+
+@keyframes BirdAnim{
+    0%{
+        left: 0%;
+        transform: rotate(45deg);
+    }
+
+    25%{
+        left: 25%;
+        top: 50%;
+        transform: rotate(-30deg);
+    }
+
+    45%{
+        left: 45%;
+        top: 10%;
+        transform: rotate(-10deg);
+    }
+
+    65%{
+        left: 65%;
+        transform: rotate(45deg);
+    }
+
+
+
+    75%{
+        left: 75%;
+        top: 50%;
+        transform: rotate(-405deg);
+    }
+
+    95%{
+        left: 95%;
+        top: 10%;
+        transform: rotate(-10deg);
+    }
+
+    100%{
+        left: 100%;
+
+    }
+
+
+}
